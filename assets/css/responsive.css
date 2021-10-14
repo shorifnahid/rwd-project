@@ -1,0 +1,280 @@
+@media(min-width:1400px){
+
+}
+
+@media(min-width:1200px) and (max-width:1399.98px){
+
+}
+
+@media(min-width:992px) and (max-width:1199.98px){
+
+}
+
+@media(min-width:768px) and (max-width:991.98px){
+    .section_ttl h2{
+        font-size: 48px;
+    }
+   /*  */
+   #slider .slider_item_container .slider_item h2{
+       font-size: 50px;
+   }
+   #special .speacial_container .speacial_item .speacial_content h3{
+       font-size: 22px;
+   }
+}
+
+@media(min-width:576px) and (max-width:767.98px){
+    .section_ttl h2{
+        font-size: 30px;
+    }
+    #slider .slider_item_container .slider_item h2{
+        font-size: 45px;
+    }
+}
+
+@media(max-width:575.98px){
+    .section_ttl h2{
+        font-size: 24px;
+    }
+    #destination p{
+        font-size: 14px;
+    }
+    #destination .destination_overly a{
+        font-size: 14px;
+    }
+    /*  */
+    #header #my_nav .head_btn a{
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+    /*  */
+    #slider .slider_item_container .slider_item h2{
+        font-size: 32px;
+    }
+    #slider .slider_item_container .slider_item p{
+        font-size: 14px;
+    }
+    #slider .slider_item_container .slider_item a{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    /*  */
+    #pakages .pakages_item .pakages_details .pakages_text p{
+        font-size: 14px;
+    }
+
+    /*  */
+    #callback .callback_container .callback_counterup .counterup_item{
+        width: 100% !important;
+    }
+    /*  */
+    #subscribe .subscribe_container .subscribe_form input[type="submit"]{
+        position: static;
+        margin-top: 10px;
+        width: 100%;
+    }
+    /*  */
+    .cantact_container .contact_item{
+        text-align: center;
+        padding: 20px 0;
+    }
+    .cantact_container .contact_item.br{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    }
+    .cantact_container .contact_item.br{
+        border-right: none;
+    }
+    #contact .cantact_container .contact_item .contact_icon{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*  */
+    #contact .cantact_container .contact_text{
+        text-align: center;
+    }
+    .cantact_container .contact_text h3{
+        font-size: 18px;
+        margin-bottom: 15px;
+        display: block;
+    }
+    .cantact_container .contact_text a{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+}
+@media(min-width:992px){
+    #home .search_input_containe .input_group{
+        width: 20%;
+    }
+}
+@media(max-width:991.98px){
+    #header #my_nav{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    }
+    #header button.navbar-toggler:focus{
+        box-shadow: none;
+        outline: 0;
+    }
+    #header button span{
+        color: #ffffff;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+    #header .mobile_menu_container{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    }
+    #header .mobile_menu_container #mobile_menu{
+        background-color: #ffffff;
+    }
+    #header .mobile_menu_container button{
+        margin: 10px 0;
+    }
+    #header .mobile_menu_container .mobile_icon_box{
+        position: relative;
+        bottom: 5px;
+        margin-right: 5px;
+    }
+    #header .mobile_menu_container .mobile_bt_icon{
+        display: inline-block;
+        width: 20px;
+        height: 2px;
+        background-color: #fff;
+        position: relative;
+    }
+    #header .mobile_menu_container .mobile_bt_icon::before,
+    #header .mobile_menu_container .mobile_bt_icon::after{
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        background-color: #fff;
+        left: 0;
+        
+    }
+    #header .mobile_menu_container .mobile_bt_icon::before{
+        top: -6px;
+    }
+    #header .mobile_menu_container .mobile_bt_icon::after{
+        bottom: -6px;
+    }
+    #header .mobile_menu_container #mobile_menu ul li{
+        border-top: 1px solid #e6e6e6;
+        text-align: left;
+    }
+    #header .mobile_menu_container #mobile_menu ul li a{
+        display: inline-block;
+        font-size: 15px;
+        font-weight: 600;
+        color: #333333;
+        padding: 10px 15px;
+        width: calc(100% - 45px);
+        text-transform: capitalize;
+    }
+    #header .mobile_menu_container #mobile_menu ul li a:hover{
+        color: #2C75BA;
+    }
+    #header .mobile_menu_container #mobile_menu ul li a.mobile_tg_btn{
+        width: 45px;
+        border-left: 1px solid #e6e6e6;
+    }
+    /*  */
+    #callback::after{
+        width: 100%;
+    }
+    #callback .callback_container{
+        padding: 80px 0 0 0 ;
+    }
+    
+    /*  */
+    #activity .activity_item{
+        margin-bottom: 18px;
+    }
+    /*  */
+    .spracial_img img{
+        width: 100%;
+    }
+    /*  */
+    #gallery .gallery_img img{
+        width: 100%;
+    }
+
+    /*  */
+    .blog_item{
+        margin-bottom: 30px;
+    }
+    #blog .blog_item .blog_img img{
+        width: 100%;
+    }
+    /*  */
+    #contact .contact_bg_img{
+        margin-bottom: 30px;
+    }
+    
+}
+@media(max-width:767.98px){
+    #destination .destination_overly .dest_content h4{
+        font-size: 18px;
+    }
+
+    /*  */
+    #pakages .pakages_container .pakages_item .pakages_details .pakages_text h4{
+        font-size: 18px;
+    }
+
+    /*  */
+    #callback .callback_container .callback_counterup::before,
+    #callback .callback_container .callback_counterup::after{
+        display: none;
+    }
+    #callback .callback_container .callback_counterup .counterup_item{
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        margin-bottom: 10px;
+    }
+
+    #callback .callback_container .callback_contact .call_con_info h5{
+        font-size: 15px;
+    }
+    #callback .callback_container .callback_contact .call_con_info h4{
+        font-size: 20px;
+    }
+    /*  */
+    #special .speacial_container .speacial_item .speacial_content h3{
+        font-size: 18px;
+    }
+
+    /*  */
+    .blog_item .blog_content h3{
+        font-size: 18px;
+    }
+    
+    /*  */
+    .cantact_container .contact_item ul li{
+        font-size: 14px;
+    }
+     /*  */
+     .bottom_footer_menu{
+        text-align: center;
+    }
+    .footer_logo{
+        margin: 10px 0;
+    }
+    .footer_copy{
+        text-align: center !important;
+    }
+}
+@media(min-width:576px){
+    #contact .cantact_container .contact_text{
+        justify-content: space-between;
+        display: flex;
+    }
+}
+@media(max-width:340px){
+    #header #my_nav .head_btn a{
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+}
