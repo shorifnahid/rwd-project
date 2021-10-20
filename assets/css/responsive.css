@@ -137,14 +137,24 @@
         position: relative;
         bottom: 5px;
         margin-right: 5px;
-    }
+        transition: linear .5s;
+        -webkit-transition: linear .5s;
+        -moz-transition: linear .5s;
+        -ms-transition: linear .5s;
+        -o-transition: linear .5s;
+}
     #header .mobile_menu_container .mobile_bt_icon{
         display: inline-block;
         width: 20px;
         height: 2px;
         background-color: #fff;
         position: relative;
-    }
+        transition: linear .5s;
+        -webkit-transition: linear .5s;
+        -moz-transition: linear .5s;
+        -ms-transition: linear .5s;
+        -o-transition: linear .5s;
+}
     #header .mobile_menu_container .mobile_bt_icon::before,
     #header .mobile_menu_container .mobile_bt_icon::after{
         content: '';
@@ -153,14 +163,37 @@
         height: 2px;
         background-color: #fff;
         left: 0;
-        
-    }
+        transition: linear .5s;
+        -webkit-transition: linear .5s;
+        -moz-transition: linear .5s;
+        -ms-transition: linear .5s;
+        -o-transition: linear .5s;
+}
     #header .mobile_menu_container .mobile_bt_icon::before{
         top: -6px;
     }
     #header .mobile_menu_container .mobile_bt_icon::after{
         bottom: -6px;
     }
+    #header .mobile_menu_container.active_bt .mobile_bt_icon{
+        background: transparent;
+        top: 50%;
+}
+    #header .mobile_menu_container.active_bt .mobile_bt_icon::before{
+        top: 50%;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+}   #header .mobile_menu_container.active_bt .mobile_bt_icon::after{
+    top: 50%;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
     #header .mobile_menu_container #mobile_menu ul li{
         border-top: 1px solid #e6e6e6;
         text-align: left;

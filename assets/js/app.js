@@ -1,6 +1,23 @@
 $(function(){
     'use stirct';
+       //backToTop bottom
+       $(window).on('scroll',function(){
+        if($(window).scrollTop() > 400){
+            $('#backToTop').fadeIn('slow')
+        }else{
+            $('#backToTop').fadeOut('slow')
+        }
+    })
+
+    $('#backToTop').on('click',function(){
+        $('html,body').animate({
+            scrollTop:0,
+        },1000)
+    })
+
     //
+    
+    //overly js
     $('.search_btn').on('click',function(){
         $('.search_overly').addClass('search_active')
     });
@@ -54,16 +71,14 @@ $(function(){
         time: 1000
     });
 
-    //backToTop bottom
-    $(window).on('scroll',function(){
-        if($(window).scrollTop() > 400){
-            $('#backToTop').fadeIn('slow')
-        }else{
-            $('#backToTop').fadeOut('slow')
-        }
-    })
 
-    $('#backToTop').on('click',function(){
-        $('html,body').scrollTop(0)
-    })
+    //
+   $('.navbar-toggler').on('click',function(){
+       $('.mobile_menu_container').toggleClass('active_bt')
+   })
+
+   //preloder
+   $(window).on('load',function(){
+       $('.preloder').fadeOut(1000)
+   })
 })
